@@ -5,11 +5,11 @@ object CommandConst {
     const val START_LOG_COMMAND = "startlog"
     const val STOP_LOG_COMMAND = "stoplog"
     const val SHOW_LOG_COMMAND = "showlog"
-    const val SEE_INFO_COMMAND = "info"
+    const val SEE_INFO_COMMAND_BLOCK = "info"
 
     // 検索値
     const val SEARCH_IMPULSE = "b:impulse"
     const val SEARCH_CHAIN = "b:chain"
     const val SEARCH_REPEAT = "b:repeat"
-    const val SEARCH_PREFIX = "c:"
+    const val SEARCH_COMMAND_PREFIX = "c:"
 }
