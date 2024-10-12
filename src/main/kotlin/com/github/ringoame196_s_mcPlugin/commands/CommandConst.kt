@@ -10,5 +10,6 @@ object CommandConst {
     const val SEARCH_IMPULSE = "b:impulse"
     const val SEARCH_CHAIN = "b:chain"
     const val SEARCH_REPEAT = "b:repeat"
+    const val SEARCH_COMMAND_MINECART = "b:minecart"
     const val SEARCH_COMMAND_PREFIX = "c:"
 }

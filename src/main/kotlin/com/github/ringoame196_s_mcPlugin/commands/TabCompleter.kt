@@ -11,7 +11,7 @@ class TabCompleter : TabCompleter {
             else -> {
                 when (args[0]) {
                     // ログの情報を見るときのみ 検索値で指定ができるようにする
-                    CommandConst.SHOW_LOG_COMMAND -> mutableListOf(CommandConst.SEARCH_IMPULSE, CommandConst.SEARCH_CHAIN, CommandConst.SEARCH_REPEAT, CommandConst.SEARCH_COMMAND_PREFIX)
+                    CommandConst.SHOW_LOG_COMMAND -> mutableListOf(CommandConst.SEARCH_IMPULSE, CommandConst.SEARCH_CHAIN, CommandConst.SEARCH_REPEAT, CommandConst.SEARCH_COMMAND_MINECART, CommandConst.SEARCH_COMMAND_PREFIX)
                     else -> mutableListOf()
                 }
             }
