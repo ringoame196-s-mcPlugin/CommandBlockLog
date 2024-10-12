@@ -2,10 +2,9 @@ package com.github.ringoame196_s_mcPlugin.commands
 
 object CommandConst {
     // サブコマンド
-    const val START_LOG_COMMAND = "startlog"
-    const val STOP_LOG_COMMAND = "stoplog"
-    const val SHOW_LOG_COMMAND = "showlog"
-    const val SEE_INFO_COMMAND_BLOCK = "info"
+    const val START_LOG_COMMAND = "start"
+    const val STOP_LOG_COMMAND = "stop"
+    const val SHOW_LOG_COMMAND = "show"
 
     // 検索値
     const val SEARCH_IMPULSE = "b:impulse"
