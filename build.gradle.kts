@@ -46,7 +46,7 @@ configure<BukkitPluginDescription> {
             description = "コマンドブロックのログを管理するコマンド"
             aliases = listOf("cblog")
             permission = "op"
-            usage = "/commandblocklog <>"
+            usage = "/commandblocklog <show,start,stop> [<ログ表示オプション>]"
         }
     }
 }
