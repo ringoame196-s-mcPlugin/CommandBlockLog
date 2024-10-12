@@ -7,7 +7,7 @@ import org.bukkit.command.TabCompleter
 class TabCompleter : TabCompleter {
     override fun onTabComplete(commandSender: CommandSender, command: Command, label: String, args: Array<out String>): MutableList<String>? {
         return when (args.size) {
-            1 -> mutableListOf(CommandConst.START_LOG_COMMAND, CommandConst.STOP_LOG_COMMAND, CommandConst.SHOW_LOG_COMMAND, CommandConst.SEE_INFO_COMMAND_BLOCK)
+            1 -> mutableListOf(CommandConst.START_LOG_COMMAND, CommandConst.STOP_LOG_COMMAND, CommandConst.SHOW_LOG_COMMAND)
             else -> {
                 when (args[0]) {
                     // ログの情報を見るときのみ 検索値で指定ができるようにする
