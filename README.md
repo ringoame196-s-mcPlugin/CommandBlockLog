@@ -1,7 +1,11 @@
 # CommandBlockLog
 
 ## プラグイン説明
-コマンドブロックのログを取るプラグイン
+コマンドブロック
+
+https://github.com/user-attachments/assets/221bd4c2-59ed-4f47-bd4c-8b493bef8894
+
+のログを取るプラグイン
 
 ## コマンド
 - /commandblocklog start - ログ取得開始
